@@ -1,0 +1,30 @@
+{
+  "total_images": 202599,
+  "train_images": 182338,
+  "val_images": 20261,
+  "split_ratio": "90/10 stratifié (genre x âge)",
+  "total_attributes": 40,
+  "unique_domains": 1,
+  "classes": {
+    "visage_humain": 202599
+  },
+  "domains": {
+    "celeba": 202599
+  },
+  "domain_balance_ratio": 1.0,
+  "class_balance_ratio": 1.0,
+  "strate_distribution": {
+    "jeune_femme": 103287,
+    "jeune_homme": 53447,
+    "homme_age": 30987,
+    "femme_agee": 14878
+  },
+  "quality_issues": {
+    "corrupted": [],
+    "missing": []
+  },
+  "prompt_stats": {
+    "unique_prompts": 276,
+    "avg_prompt_length": 8.3
+  }
+}
