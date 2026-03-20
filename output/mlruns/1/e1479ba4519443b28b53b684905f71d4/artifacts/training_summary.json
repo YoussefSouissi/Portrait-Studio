@@ -1,0 +1,8 @@
+{
+  "total_steps": 76,
+  "final_loss": 0.15722036361694336,
+  "best_metrics": {},
+  "elapsed_seconds": 28118.499874,
+  "start_time": "2026-03-07T02:31:59.737288",
+  "end_time": "2026-03-07T10:20:38.237178"
+}
