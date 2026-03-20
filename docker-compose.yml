@@ -1,0 +1,14 @@
+services:
+  portrait-studio:
+    build: .
+    runtime: nvidia
+    ports:
+      - "8000:8000"
+    volumes:
+      - portrait-models:/app/models
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+    restart: unless-stopped
+
+volumes:
+  portrait-models:
