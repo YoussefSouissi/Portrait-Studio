@@ -6,7 +6,7 @@ Génération de portraits humains par intelligence artificielle, propulsé par *
 
 ## Description
 
-Portrait Studio génère des portraits photo-réalistes à partir de descriptions textuelles. Le modèle LoRA a été entraîné sur 182 339 images CelebA pendant 15 000 steps, atteignant un **CLIP Score de 0.3324** et une **loss de 0.023538**.
+Portrait Studio génère des portraits photo-réalistes à partir de descriptions textuelles. Le modèle LoRA a été entraîné sur CelebA dataset.
 
 L'application est disponible en deux modes : **local via Docker** ou **en ligne via Google Colab**.
 
